@@ -1,0 +1,47 @@
+.area-table {
+    background-color: var(--background-color);
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: var(--light-shadow1);
+  
+    .area-table-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text-color);
+    }
+  
+    .trades-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .trade {
+      background-color: var(--light-background);
+      padding: 12px;
+      border-radius: 5px;
+      box-shadow: var(--light-shadow2);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+  
+      .trade-pair {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--text-color);
+      }
+  
+      .trade-value {
+        font-size: 14px;
+        color: var(--text-color-muted);
+      }
+  
+      .trade-profit {
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--success-color); /* Adjust based on profit/loss */
+      }
+    }
+  }
+  

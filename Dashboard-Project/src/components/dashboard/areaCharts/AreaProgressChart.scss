@@ -1,0 +1,60 @@
+// progress chart
+.progress-bar {
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: var(--light-shadow1);
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    @media (max-width: 768px) {
+      padding: 12px;
+    }
+  
+    .progress-bar-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-color-inverted);
+      margin-bottom: 16px;
+    }
+    
+  
+    .accounts-container {
+      display: grid;
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+  
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+  
+      .account{
+        padding: 16px;
+        background: var(--light-background);
+        border-radius: 5px;
+        box-shadow: var(--light-shadow1);
+  
+        .account-title {
+          font-size: 18px;
+          font-weight: 700;
+          color: grey;
+          margin-bottom: 8px;
+        }
+  
+        .account-id {
+          font-size: 14px;
+          color: darkgray;
+          margin-bottom: 12px;
+        }
+  
+        .account-value {
+          font-size: 36px;
+          font-weight: 700;
+          color: black;
+        }
+      }
+    }
+  }
+  
