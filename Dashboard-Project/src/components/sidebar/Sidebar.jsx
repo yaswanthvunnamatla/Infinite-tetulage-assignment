@@ -36,7 +36,7 @@ const Sidebar = () => {
       !navbarRef.current.contains(event.target) &&
       event.target.className !== "sidebar-open-btn"
     ) {
-      closeSidebar();
+      // closeSidebar();
     }
   };
 
